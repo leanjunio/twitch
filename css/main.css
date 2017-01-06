@@ -1,0 +1,43 @@
+body {
+  margin-top: 100px;
+  font-family: "Trebuchet MS", serif;
+  line-height: 1.6;
+  background: #DDFFB7; }
+
+.container {
+  width: 700px;
+  margin: 0 auto; }
+
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #696969; }
+
+ul.tabs li {
+  background: none;
+  color: #aaa;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer; }
+
+ul.tabs li.current {
+  background: #DDFFB7;
+  color: #888; }
+
+a {
+  color: #ededed; }
+
+.link {
+  color: white; }
+
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px; }
+
+.tab-content.current {
+  display: inherit;
+  background: #444; }
+
+/*# sourceMappingURL=main.css.map */
